@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "54298951411",
+    "project_id": "studenportal-c7e9c",
+    "storage_bucket": "studenportal-c7e9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54298951411:android:44f9efc8257290f1b68186",
+        "android_client_info": {
+          "package_name": "com.example.studentportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54298951411-1u4jh9eavim76th315mgqnuossdb67j3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXCADD4it7RFtlL8RIdWHIwTWj5Lp-NtE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54298951411-1u4jh9eavim76th315mgqnuossdb67j3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

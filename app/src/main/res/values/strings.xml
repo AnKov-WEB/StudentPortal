@@ -1,0 +1,75 @@
+<resources>
+
+    <!-- File name -->
+
+    <string name="app_name">Student Portal</string>
+
+    <!-- Onboarding -->
+
+    <string name="onboardingWelcomeTextHeader">Привет</string>
+    <string name="onboardingWelcomeTextBody">Наслаждайся отборочными. \n Будь внимателен. \n Делай хорошо.</string>
+    <string name="onboardingLoginAccount">Войти в аккаунт</string>
+    <string name="onboardingNoAccountHint">Еще нет аккаунта?</string>
+    <string name="onboardingNoAccountHintRegistration">Зарегистрируйтесь</string>
+
+    <!-- Login -->
+
+    <string name="loginTextHeader">Sign In</string>
+    <string name="loginEmailHint">Email</string>
+    <string name="loginPasswordHint">Пароль</string>
+    <string name="loginAccountLogin">Войти</string>
+    <string name="loginAccountRegister">Зарегистрироваться</string>
+
+    <!-- Register -->
+
+    <string name="registerTextHeader">Sign Up</string>
+    <string name="registerEmailHint">Email</string>
+    <string name="registerPasswordHint">Пароль</string>
+    <string name="registerRepeatPasswordHint">Повторите пароль</string>
+    <string name="registerAccountRegister">Зарегистрироваться</string>
+    <string name="registerAccountNotRegister">У меня уже есть аккаунт</string>
+
+    <!-- Main -->
+
+    <string name="mainStudent">студенты</string>
+    <string name="mainTeacher">учителя</string>
+    <string name="mainTable">расписание</string>
+    <string name="mainTextHeader">список таблиц</string>
+
+    <!-- Student -->
+
+    <string name="studentTextHeader">список студентов</string>
+
+    <string name="studentDetailsIdText">id</string>
+    <string name="studentDetailsNameText">имя</string>
+    <string name="studentDetailsGroupText">группа</string>
+    <string name="studentDetailsAgeText">возраст</string>
+
+    <string name="studentInsertionNameText">Имя</string>
+    <string name="studentInsertionGroupText">Группа</string>
+    <string name="studentInsertionAgeText">Возраст</string>
+
+    <!-- Teacher-->
+
+    <string name="teacherTextHeader">список учителей</string>
+
+    <string name="teacherDetailsIdText">id</string>
+    <string name="teacherDetailsNameText">имя</string>
+    <string name="teacherDetailsLessonText">предмет</string>
+
+    <string name="teacherInsertionNameText">Имя</string>
+    <string name="teacherInsertionLessonText">Предмет</string>
+
+    <!-- Other-->
+
+    <string name="otherInsert">добавить</string>
+    <string name="otherFetch">получить</string>
+
+    <string name="otherSaveData">сохранить</string>
+
+    <string name="otherLoadingText">Загрузка данных....</string>
+
+    <string name="otherUpdateText">обновить</string>
+    <string name="otherDeleteText">удалить</string>
+
+</resources>

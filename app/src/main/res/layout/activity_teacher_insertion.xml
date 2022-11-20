@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".teacherActivity.TeacherInsertionActivity">
+
+    <ImageView
+        android:id="@+id/group_28Image"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/group_28" />
+
+    <EditText
+        android:id="@+id/nameTeacherInputField"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="30dp"
+        android:autofillHints="email"
+        android:backgroundTint="@color/textColorGray"
+        android:ems="10"
+        android:fontFamily="@font/alegreya_regular"
+        android:hint="@string/teacherInsertionNameText"
+        android:inputType="text"
+        android:layout_marginTop="100dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="15dp"
+        android:textColor="@color/textColorGray"
+        android:textColorHint="@color/textColorGray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/lessonTeacherInputField"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="email"
+        android:backgroundTint="@color/textColorGray"
+        android:ems="10"
+        android:fontFamily="@font/alegreya_regular"
+        android:hint="@string/teacherInsertionLessonText"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="15dp"
+        android:textColor="@color/textColorGray"
+        android:textColorHint="@color/textColorGray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameTeacherInputField" />
+
+    <Button
+        android:id="@+id/btnTeacherSaveData"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/lightGreen"
+        android:fontFamily="@font/alegreya_regular"
+        android:layout_marginTop="129dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:paddingStart="100dp"
+        android:paddingTop="15dp"
+        android:paddingEnd="100dp"
+        android:paddingBottom="15dp"
+        android:text="@string/otherSaveData"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lessonTeacherInputField" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
